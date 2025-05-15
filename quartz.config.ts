@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Christians Garten",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "de-DE",
+    baseUrl: "garden.beta-cc.de",
+    ignorePatterns: ["private", "templates", ".obsidian", "**/GM"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
