@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "de-DE",
     baseUrl: "garden.beta-cc.de",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/GM"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/GM", "Earthdawn2020", "GPF"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
